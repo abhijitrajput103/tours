@@ -1,0 +1,250 @@
+footer {
+  background-color: #121921;
+  color: rgba(255, 255, 255, .7);
+
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  /* Increase the font size */
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  /* Font size for dropdown items */
+}
+
+
+.follow_us {
+  margin-top: 15px;
+  animation-delay: 1.1s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s
+}
+
+.follow_us ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  font-size: 1.25rem
+}
+
+.follow_us ul li:first-child {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-size: .8125rem
+}
+
+.follow_us ul li a {
+  color: #fff;
+  opacity: .7
+}
+
+.follow_us ul li a:hover {
+  opacity: 1
+}
+
+.margin_60_35 {
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 35px;
+
+}
+
+.margin150 {
+  margin-top: 150px;
+}
+
+.margin330 {
+  margin-top: 330px;
+  font-size: 20px;
+}
+
+.siteNavbar {
+  z-index: zindex-fixed;
+  padding: 0;
+  margin: 0;
+}
+
+.tour {
+  margin-top: 15px;
+  animation-delay: 1.1s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s
+}
+
+.tour ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 23px;
+}
+
+.tourim {
+  margin-top: 15px;
+  height: 28px;
+  width: 28px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.service {
+  text-align: center;
+}
+
+.service img {
+  width: 40px;
+  height: 40px;
+}
+
+.service p {
+  margin: 5px 0;
+  color: #e91e63;
+  /* Pink color */
+}
+
+.enquire-btn {
+  background-color: #8000ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  height: 40px;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+
+.modalbg {
+  background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.modal-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+}
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e55d97;
+}
+
+.modal-body {
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.paybg {
+  background-image: url(../images/payment-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.toubg {
+    background: linear-gradient(135deg, #00BFFF, #32CD32); /* Tropical Paradise */
+    padding: 20px; /* Optional padding for better spacing */
+    color: #F08080; /* Light Coral for good contrast */
+}
+
+/* Ensure all headings and paragraphs use the new color */
+.toubg h1,
+.toubg h5,
+.toubg p {
+    color: #F08080; /* Light Coral for all text */
+}
+
+
+
+.text-gradient-primary-success {
+  background: linear-gradient(135deg, #198754, #0dcaf0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
