@@ -82,7 +82,7 @@
 <body class="bg-light">
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top bg-info-subtle">
+    <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top">
         <div class="container-fluid d-flex mx-5 p-1">
             <a class="navbar-brand mx-5 w-25" href="index.html">
                 <img src="images/logo.png" style="height:100px;">
@@ -135,1098 +135,1087 @@
     </nav>
     <!--Nav bar Ends-->
 
-    <!--Craousel-->
+    <!--Carousel-->
     <div class="container-fluid w-75 mt-4">
         <div class="card text-bg-dark">
-            <img src="images/slider6.jpg" class="card-img" alt="Slider">
+            <img src="images/internatinal-banner.png" class="card-img img-fluid" alt="Slider">
+            <div class="card-img-overlay d-flex flex-column justify-content-end align-items-center">
+                <h2 class="card-title text-light text-center">Explore Our International Tours</h2>
+                <p class="card-text text-light text-center">Embark on unforgettable journeys across the globe. Choose
+                    your dream destination!</p>
+            </div>
         </div>
-        <!--Craousel End -->
-        <!--Dubai Tour-->
-        <div class="container-fluid">
-            <div class="row rounded toubg border border-success mt-4">
-                <div class="col-xl-5 d-flex justify-content-center rounded" id="dubai-tour">
-                    <img src="images/dubai-tour.jpg" alt="Dubai Tour" class="img-fluid">
-                </div>
-                <div class="col-xl-7 py-3">
-                    <h1>Dubai Tour Package</h1>
-                    <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
-                    <div class="tour">
-                        <ul class="list-group">
-                            <li class="list-group-item text-danger fw-bold"> Day 1: </li>
-                            <li class="list-group-item text-success"> Arrival at Dubai airport, and proceed for Dhow
-                                Cruise </li>
-                            <li class="list-group-item text-danger fw-bold"> Day 2: </li>
-                            <li class="list-group-item text-success"> Jumeirah Mosque, Dubai Museum, Textile Market &k </li>
-                            <li class="list-group-item text-danger fw-bold"> Day 3: </li>
-                            <li class="list-group-item text-success"> Rest of the day free to explore Dubai on your own
-                            </li>
-                            <li class="list-group-item text-danger fw-bold"> Day 4: </li>
-                            <li class="list-group-item text-success"> Atlantis The Palm, enjoy at Aquaventure Waterpark.
-                            </li>
-                            <li class="list-group-item text-danger fw-bold"> Day 5: </li>
-                            <li class="list-group-item text-success"> Explore Dubai and flight back to India </li>
-                        </ul>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-lg-9 m-auto">
-                            <div class="container my-5">
-                                <div class="text-center mb-4">
-                                    <h2 class="title">Services</h2>
-                                    <hr class="my-4"> <!-- Horizontal line -->
-                                </div>
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
-                                        <p>Transport</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
-                                        <p>Hotels</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
-                                        <p>Sightseeing</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
-                                        <p>Meals</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
-                                        <p>Guide</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 justify-content-center m-auto">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#enquireModal">
-                                Book Now
-                            </button>
-                            <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-xl">
-                                    <div class="modal-content modalbg">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/travel-popup.png" class="img-fluid"
-                                                        alt="Travel Popup">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <form id="enquiryForm" onsubmit="return handleSubmit()">
-                                                        <div class="mb-3">
-                                                            <label for="name" class="form-label">Name</label>
-                                                            <input type="text" class="form-control" id="name"
-                                                                name="name" placeholder="Enter your name" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Email</label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                name="email" placeholder="Enter your email" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="phone" class="form-label">Phone Number</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                name="phone" placeholder="Enter your phone number"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="bookingDate" class="form-label">Booking
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="bookingDate"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="nop" class="form-label">Number of People
-                                                                Travelling</label>
-                                                            <input type="number" class="form-control" id="nop"
-                                                                name="nop"
-                                                                placeholder="Enter total number of persons Travelling"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <button type="submit" class="btn">Proceed to
-                                                                Payment</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!--Carousel End -->
 
-            <!-- Booking Payment Modal -->
-            <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
-                aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content paybg">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form id="bookingPaymentForm">
-                                <h5>Payment Information</h5>
-                                <div class="form-group">
-                                    <label for="paymentMethod">Select Payment Method</label>
-                                    <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
-                                        required>
-                                        <option value="">Choose...</option>
-                                        <option value="card">Credit/Debit Card</option>
-                                        <option value="upi">UPI</option>
-                                    </select>
-                                </div>
-                                <div id="cardPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="cardName">Cardholder Name</label>
-                                        <input type="text" class="form-control" id="cardName">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cardNumber">Card Number</label>
-                                        <input type="text" class="form-control" id="cardNumber">
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="expiryDate">Expiry Date</label>
-                                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cvv">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="upiPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="upiId">UPI ID</label>
-                                        <input type="text" class="form-control" id="upiId" required>
-                                    </div>
-                                </div>
-                                <h5>Total Amount: ₹5000</h5>
-                                <button type="submit" class="btn btn-primary">Book and Pay Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <!--Dubai Tour-->
+    <div class="container-fluid">
+        <div class="row rounded toubg border border-success mt-4">
+            <div class="col-md-5 d-flex justify-content-center rounded" id="dubai-tour">
+                <img src="images/dubai-tour.jpg" alt="Dubai Tour" class="img-fluid">
             </div>
-            <!--Nepal Tour -->
-            <div class="row rounded toubg border border-success mt-4">
-                <div class="col-xl-5 d-flex justify-content-center" id="nepal-tour">
-                    <img src="images/nepal-tour.jpg" alt="Dubai Tour" class="img-fluid mt-1 mb-1">
+            <div class="col-md-7 py-3">
+                <h1>Dubai Tour Package</h1>
+                <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
+                <div class="tour">
+                    <ul class="list-group">
+                        <li class="list-group-item text-danger fw-bold"> Day 1: </li>
+                        <li class="list-group-item text-success"> Arrival at Dubai airport, and proceed for Dhow
+                            Cruise </li>
+                        <li class="list-group-item text-danger fw-bold"> Day 2: </li>
+                        <li class="list-group-item text-success"> Jumeirah Mosque, Dubai Museum, Textile Market &k </li>
+                        <li class="list-group-item text-danger fw-bold"> Day 3: </li>
+                        <li class="list-group-item text-success"> Rest of the day free to explore Dubai on your own
+                        </li>
+                        <li class="list-group-item text-danger fw-bold"> Day 4: </li>
+                        <li class="list-group-item text-success"> Atlantis The Palm, enjoy at Aquaventure Waterpark.
+                        </li>
+                        <li class="list-group-item text-danger fw-bold"> Day 5: </li>
+                        <li class="list-group-item text-success"> Explore Dubai and flight back to India </li>
+                    </ul>
                 </div>
-                <div class="col-xl-7 py-3">
-                    <h1>Nepal Tour Package</h1>
-                    <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
-                    <div class="tour">
-                        <ul class="list-group">
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 1 :</b> </li>
-                            <li class="list-group-item text-success"> Kathmandu Arrival </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 2 :</b> </li>
-                            <li class="list-group-item text-success"> Kathmandu Sightseeing </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 3 :</b> </li>
-                            <li class="list-group-item text-success"> Kathmandu Pokhara ( 200 Km – 6 Hours )</li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 4 : </b> </li>
-                            <li class="list-group-item text-success">Pokhara Sightseeing. </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 5 : </b> </li>
-                            <li class="list-group-item text-success">Jomsom Kathmandu Via Pokhara ( AIR + Surface ) </li>
-                        </ul>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-lg-9 m-auto">
-                            <div class="container my-5">
-                                <div class="text-center mb-4">
-                                    <h2 class="title">Services</h2>
-                                    <hr class="my-4"> <!-- Horizontal line -->
+                <div class="row mt-4">
+                    <div class="col-lg-9 m-auto">
+                        <div class="container my-5">
+                            <div class="text-center mb-4">
+                                <h2 class="title">Services</h2>
+                                <hr class="my-4"> <!-- Horizontal line -->
+                            </div>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
+                                    <p>Transport</p>
                                 </div>
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
-                                        <p>Transport</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
-                                        <p>Hotels</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
-                                        <p>Sightseeing</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
-                                        <p>Meals</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
-                                        <p>Guide</p>
-                                    </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
+                                    <p>Hotels</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
+                                    <p>Sightseeing</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
+                                    <p>Meals</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
+                                    <p>Guide</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 justify-content-center m-auto">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#enquireModal">
-                                Book Now
-                            </button>
-                            <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modalbg">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/travel-popup.png" class="img-fluid"
-                                                        alt="Travel Popup">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <form id="enquiryForm" onsubmit="return handleSubmit()">
-                                                        <div class="mb-3">
-                                                            <label for="name" class="form-label">Name</label>
-                                                            <input type="text" class="form-control" id="name"
-                                                                name="name" placeholder="Enter your name" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Email</label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                name="email" placeholder="Enter your email" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="phone" class="form-label">Phone Number</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                name="phone" placeholder="Enter your phone number"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="bookingDate" class="form-label">Booking
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="bookingDate"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="nop" class="form-label">Number of People
-                                                                Travelling</label>
-                                                            <input type="number" class="form-control" id="nop"
-                                                                name="nop"
-                                                                placeholder="Enter total number of persons Travelling"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <button type="submit" class="btn">Proceed to
-                                                                Payment</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
+                    </div>
+                    <div class="col-lg-3 justify-content-center m-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#enquireModal">
+                            Book Now
+                        </button>
+                        <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/travel-popup.png" class="img-fluid" alt="Travel Popup">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form id="enquiryForm" onsubmit="return handleSubmit()">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Enter your name" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Enter your email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                                            placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="bookingDate" class="form-label">Booking
+                                                            Date</label>
+                                                        <input type="date" class="form-control" id="bookingDate"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="nop" class="form-label">Number of People
+                                                            Travelling</label>
+                                                        <input type="number" class="form-control" id="nop" name="nop"
+                                                            placeholder="Enter total number of persons Travelling"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <button type="submit" class="btn">Proceed to
+                                                            Payment</button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Booking Payment Modal -->
-            <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
-                aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content paybg">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form id="bookingPaymentForm">
-                                <h5>Payment Information</h5>
-                                <div class="form-group">
-                                    <label for="paymentMethod">Select Payment Method</label>
-                                    <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
-                                        required>
-                                        <option value="">Choose...</option>
-                                        <option value="card">Credit/Debit Card</option>
-                                        <option value="upi">UPI</option>
-                                    </select>
-                                </div>
-                                <div id="cardPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="cardName">Cardholder Name</label>
-                                        <input type="text" class="form-control" id="cardName">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cardNumber">Card Number</label>
-                                        <input type="text" class="form-control" id="cardNumber">
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="expiryDate">Expiry Date</label>
-                                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cvv">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="upiPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="upiId">UPI ID</label>
-                                        <input type="text" class="form-control" id="upiId" required>
-                                    </div>
-                                </div>
-                                <h5>Total Amount: ₹5000</h5>
-                                <button type="submit" class="btn btn-primary">Book and Pay Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Malaysia Tour-->
-            <div class="row rounded toubg border border-success mt-4">
-                <div class="col-xl-5 d-flex justify-content-center rounded" id="malaysia-tour">
-                    <img src="images/malaysia-tour.jpg" alt="Malaysia Tour" class="img-fluid mt-1 mb-1">
-                </div>
-                <div class="col-xl-7 py-3">
-                    <h1> Malaysia Tour Package</h1>
-                    <h5 class="text-black-50"> <span class="mx-3"> 06 Nights / 07 Days </span> </h5>
-                    <div class="tour">
-                        <ul class="list-group">
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 1 :</b> </li>
-                            <li class="list-group-item text-success"> Arrival at the Langkawi airport </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 2 :</b> </li>
-                            <li class="list-group-item text-success"> Island Hopping Tour</li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 3 and Day 4:</b> </li>
-                            <li class="list-group-item text-success"> Langkawi – Penang then Penang City Tour </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 5 and Day 6: </b> </li>
-                            <li class="list-group-item text-success"> Penang – Kuala Lumpur then Kuala Lumpur City Tour </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 7 : </b> </li>
-                            <li class="list-group-item text-success"> Departure : Good Bye Malaysia </li>
-                        </ul>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-lg-9 m-auto">
-                            <div class="container my-5">
-                                <div class="text-center mb-4">
-                                    <h2 class="title">Services</h2>
-                                    <hr class="my-4"> <!-- Horizontal line -->
-                                </div>
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
-                                        <p>Transport</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
-                                        <p>Hotels</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
-                                        <p>Sightseeing</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
-                                        <p>Meals</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
-                                        <p>Guide</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 justify-content-center m-auto">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#enquireModal">
-                                Book Now
-                            </button>
-                            <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modalbg">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/travel-popup.png" class="img-fluid"
-                                                        alt="Travel Popup">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <form id="enquiryForm" onsubmit="return handleSubmit()">
-                                                        <div class="mb-3">
-                                                            <label for="name" class="form-label">Name</label>
-                                                            <input type="text" class="form-control" id="name"
-                                                                name="name" placeholder="Enter your name" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Email</label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                name="email" placeholder="Enter your email" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="phone" class="form-label">Phone Number</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                name="phone" placeholder="Enter your phone number"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="bookingDate" class="form-label">Booking
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="bookingDate"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="nop" class="form-label">Number of People
-                                                                Travelling</label>
-                                                            <input type="number" class="form-control" id="nop"
-                                                                name="nop"
-                                                                placeholder="Enter total number of persons Travelling"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <button type="submit" class="btn">Proceed to
-                                                                Payment</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Booking Payment Modal -->
-            <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
-                aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content paybg">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form id="bookingPaymentForm">
-                                <h5>Payment Information</h5>
-                                <div class="form-group">
-                                    <label for="paymentMethod">Select Payment Method</label>
-                                    <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
-                                        required>
-                                        <option value="">Choose...</option>
-                                        <option value="card">Credit/Debit Card</option>
-                                        <option value="upi">UPI</option>
-                                    </select>
-                                </div>
-                                <div id="cardPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="cardName">Cardholder Name</label>
-                                        <input type="text" class="form-control" id="cardName">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cardNumber">Card Number</label>
-                                        <input type="text" class="form-control" id="cardNumber">
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="expiryDate">Expiry Date</label>
-                                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cvv">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="upiPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="upiId">UPI ID</label>
-                                        <input type="text" class="form-control" id="upiId" required>
-                                    </div>
-                                </div>
-                                <h5>Total Amount: ₹5000</h5>
-                                <button type="submit" class="btn btn-primary">Book and Pay Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Singapore Tour-->
-            <div class="row rounded toubg border border-success mt-4">
-                <div class="col-xl-5 d-flex justify-content-center" id="singapore-tour">
-                    <img src="images/singapore-tour.jpg" alt="Dubai Tour" class="img-fluid mt-1 mb-1">
-                </div>
-                <div class="col-xl-7 py-3">
-                    <h1>Singapore Tour Package</h1>
-                    <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
-                    <div class="tour">
-                        <ul class="list-group">
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 1 :</b> </li>
-                            <li class="list-group-item text-success"> Singapore: Arrival and Night Safari </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 2 :</b> </li>
-                            <li class="list-group-item text-success"> Singapore: Half Day City Tour </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 3 :</b> </li>
-                            <li class="list-group-item text-success"> Singapore: Sentosa Island Tour </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 4 : </b> </li>
-                            <li class="list-group-item text-success"> Singapore: Leisure Day </li>
-                            <li class="list-group-item text-danger fw-bold"> <b> Day 5 : </b> </li>
-                            <li class="list-group-item text-success"> Singapore: Bid Bye to the Trip </li>
-                        </ul>
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-lg-9 m-auto">
-                            <div class="container my-5">
-                                <div class="text-center mb-4">
-                                    <h2 class="title">Services</h2>
-                                    <hr class="my-4"> <!-- Horizontal line -->
-                                </div>
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
-                                        <p>Transport</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
-                                        <p>Hotels</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
-                                        <p>Sightseeing</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
-                                        <p>Meals</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
-                                        <p>Guide</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 justify-content-center m-auto">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#enquireModal">
-                                Book Now
-                            </button>
-                            <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modalbg">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/travel-popup.png" class="img-fluid"
-                                                        alt="Travel Popup">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <form id="enquiryForm" onsubmit="return handleSubmit()">
-                                                        <div class="mb-3">
-                                                            <label for="name" class="form-label">Name</label>
-                                                            <input type="text" class="form-control" id="name"
-                                                                name="name" placeholder="Enter your name" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Email</label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                name="email" placeholder="Enter your email" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="phone" class="form-label">Phone Number</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                name="phone" placeholder="Enter your phone number"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="bookingDate" class="form-label">Booking
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="bookingDate"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="nop" class="form-label">Number of People
-                                                                Travelling</label>
-                                                            <input type="number" class="form-control" id="nop"
-                                                                name="nop"
-                                                                placeholder="Enter total number of persons Travelling"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <button type="submit" class="btn">Proceed to
-                                                                Payment</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Booking Payment Modal -->
-            <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
-                aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content paybg">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form id="bookingPaymentForm">
-                                <h5>Payment Information</h5>
-                                <div class="form-group">
-                                    <label for="paymentMethod">Select Payment Method</label>
-                                    <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
-                                        required>
-                                        <option value="">Choose...</option>
-                                        <option value="card">Credit/Debit Card</option>
-                                        <option value="upi">UPI</option>
-                                    </select>
-                                </div>
-                                <div id="cardPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="cardName">Cardholder Name</label>
-                                        <input type="text" class="form-control" id="cardName">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cardNumber">Card Number</label>
-                                        <input type="text" class="form-control" id="cardNumber">
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="expiryDate">Expiry Date</label>
-                                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cvv">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="upiPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="upiId">UPI ID</label>
-                                        <input type="text" class="form-control" id="upiId" required>
-                                    </div>
-                                </div>
-                                <h5>Total Amount: ₹5000</h5>
-                                <button type="submit" class="btn btn-primary">Book and Pay Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Sri Lanlka Tour-->
-            <div class="row rounded toubg border border-success mt-4">
-                <div class="col-md-5 d-flex justify-content-center" id="sri-lanka-tour">
-                    <img src="images/sri-lanka-tour.jpg" alt="Dubai Tour" class="img-fluid mb-1 mt-1">
-                </div>
-                <div class="col-md-7 py-3">
-                    <h1> Srilanka Tour Package</h1>
-                    <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
-                    <section class="tour">
-                        <ul class="list-group">
-                            <li class="list-group-item text-danger fw-bold">Day 1:</li>
-                            <li class="list-group-item text-success">Airport - Pinnawala - Sigiriya Arrival.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 2:</li>
-                            <li class="list-group-item text-success">Dambulla - Matale - Kandy Sightseeing.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 3:</li>
-                            <li class="list-group-item text-success">Kandy - Nuwara Eliya.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 4:</li>
-                            <li class="list-group-item text-success">Nuwara Eliya - Colombo - Negombo.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 5:</li>
-                            <li class="list-group-item text-success">Negombo - Airport Terminal.</li>
-                        </ul>
-                    </section>                    
-                    <div class="row mt-4">
-                        <div class="col-lg-9 m-auto">
-                            <div class="container my-5">
-                                <div class="text-center mb-4">
-                                    <h2 class="title">Services</h2>
-                                    <hr class="my-4"> <!-- Horizontal line -->
-                                </div>
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
-                                        <p>Transport</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
-                                        <p>Hotels</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
-                                        <p>Sightseeing</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
-                                        <p>Meals</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
-                                        <p>Guide</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 justify-content-center m-auto">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#enquireModal">
-                                Book Now
-                            </button>
-                            <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modalbg">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/travel-popup.png" class="img-fluid"
-                                                        alt="Travel Popup">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <form id="enquiryForm" onsubmit="return handleSubmit()">
-                                                        <div class="mb-3">
-                                                            <label for="name" class="form-label">Name</label>
-                                                            <input type="text" class="form-control" id="name"
-                                                                name="name" placeholder="Enter your name" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Email</label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                name="email" placeholder="Enter your email" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="phone" class="form-label">Phone Number</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                name="phone" placeholder="Enter your phone number"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="bookingDate" class="form-label">Booking
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="bookingDate"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="nop" class="form-label">Number of People
-                                                                Travelling</label>
-                                                            <input type="number" class="form-control" id="nop"
-                                                                name="nop"
-                                                                placeholder="Enter total number of persons Travelling"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <button type="submit" class="btn">Proceed to
-                                                                Payment</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Booking Payment Modal -->
-            <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
-                aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content paybg">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form id="bookingPaymentForm">
-                                <h5>Payment Information</h5>
-                                <div class="form-group">
-                                    <label for="paymentMethod">Select Payment Method</label>
-                                    <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
-                                        required>
-                                        <option value="">Choose...</option>
-                                        <option value="card">Credit/Debit Card</option>
-                                        <option value="upi">UPI</option>
-                                    </select>
-                                </div>
-                                <div id="cardPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="cardName">Cardholder Name</label>
-                                        <input type="text" class="form-control" id="cardName">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cardNumber">Card Number</label>
-                                        <input type="text" class="form-control" id="cardNumber">
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="expiryDate">Expiry Date</label>
-                                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cvv">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="upiPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="upiId">UPI ID</label>
-                                        <input type="text" class="form-control" id="upiId" required>
-                                    </div>
-                                </div>
-                                <h5>Total Amount: ₹5000</h5>
-                                <button type="submit" class="btn btn-primary">Book and Pay Now</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Thailand Tour-->
-            <div class="row rounded toubg bg-white border border-success mt-4">
-                <div class="col-md-5 d-flex justify-content-center" id="thailand-tour">
-                    <img src="images/thailand-tour.jpg" alt="Thailand Tour" class="img-fluid mt-1 mb-1">
-                </div>
-                <div class="col-md-7 py-3">
-                    <h1>Thailand Tour Package</h1>
-                    <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
-                    <section class="tour">
-                        <ul class="list-group">
-                            <li class="list-group-item text-danger fw-bold">Day 1:</li>
-                            <li class="list-group-item text-success">Arrival at Phuket & Transfer to Krabi.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 2:</li>
-                            <li class="list-group-item text-success">Krabi – Explore 4 Islands by Speedboat.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 3:</li>
-                            <li class="list-group-item text-success">Krabi City Tour & Transfer to Phuket.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 4:</li>
-                            <li class="list-group-item text-success">Phuket – Phi Phi Island.</li>
-                            
-                            <li class="list-group-item text-danger fw-bold">Day 5:</li>
-                            <li class="list-group-item text-success">Departure: Bye Bye Thailand.</li>
-                        </ul>
-                    </section>                    
-                    <div class="row mt-4">
-                        <div class="col-lg-9 m-auto">
-                            <div class="container my-5">
-                                <div class="text-center mb-4">
-                                    <h2 class="title">Services</h2>
-                                    <hr class="my-4"> <!-- Horizontal line -->
-                                </div>
-                                <div class="d-flex justify-content-center flex-wrap">
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
-                                        <p>Transport</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
-                                        <p>Hotels</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
-                                        <p>Sightseeing</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
-                                        <p>Meals</p>
-                                    </div>
-                                    <div class="service mx-3 text-center">
-                                        <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
-                                        <p>Guide</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 justify-content-center m-auto">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#enquireModal">
-                                Book Now
-                            </button>
-                            <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-lg">
-                                    <div class="modal-content modalbg">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <img src="images/travel-popup.png" class="img-fluid"
-                                                        alt="Travel Popup">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <form id="enquiryForm" onsubmit="return handleSubmit()">
-                                                        <div class="mb-3">
-                                                            <label for="name" class="form-label">Name</label>
-                                                            <input type="text" class="form-control" id="name"
-                                                                name="name" placeholder="Enter your name" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="email" class="form-label">Email</label>
-                                                            <input type="email" class="form-control" id="email"
-                                                                name="email" placeholder="Enter your email" required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="phone" class="form-label">Phone Number</label>
-                                                            <input type="tel" class="form-control" id="phone"
-                                                                name="phone" placeholder="Enter your phone number"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="bookingDate" class="form-label">Booking
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="bookingDate"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="nop" class="form-label">Number of People
-                                                                Travelling</label>
-                                                            <input type="number" class="form-control" id="nop"
-                                                                name="nop"
-                                                                placeholder="Enter total number of persons Travelling"
-                                                                required>
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <button type="submit" class="btn">Proceed to
-                                                                Payment</button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Booking Payment Modal -->
-            <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
-                aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content paybg">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form id="bookingPaymentForm">
-                                <h5>Payment Information</h5>
-                                <div class="form-group">
-                                    <label for="paymentMethod">Select Payment Method</label>
-                                    <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
-                                        required>
-                                        <option value="">Choose...</option>
-                                        <option value="card">Credit/Debit Card</option>
-                                        <option value="upi">UPI</option>
-                                    </select>
-                                </div>
-                                <div id="cardPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="cardName">Cardholder Name</label>
-                                        <input type="text" class="form-control" id="cardName">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cardNumber">Card Number</label>
-                                        <input type="text" class="form-control" id="cardNumber">
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="expiryDate">Expiry Date</label>
-                                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="cvv">CVV</label>
-                                            <input type="text" class="form-control" id="cvv">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="upiPayment" style="display:none;">
-                                    <div class="form-group">
-                                        <label for="upiId">UPI ID</label>
-                                        <input type="text" class="form-control" id="upiId" required>
-                                    </div>
-                                </div>
-                                <h5>Total Amount: ₹5000</h5>
-                                <button type="submit" class="btn btn-primary">Book and Pay Now</button>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Booking Payment Modal -->
+        <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
+            aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content paybg">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="bookingPaymentForm">
+                            <h5>Payment Information</h5>
+                            <div class="form-group">
+                                <label for="paymentMethod">Select Payment Method</label>
+                                <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
+                                    required>
+                                    <option value="">Choose...</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="upi">UPI</option>
+                                </select>
+                            </div>
+                            <div id="cardPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="cardName">Cardholder Name</label>
+                                    <input type="text" class="form-control" id="cardName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="expiryDate">Expiry Date</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="upiPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="upiId">UPI ID</label>
+                                    <input type="text" class="form-control" id="upiId" required>
+                                </div>
+                            </div>
+                            <h5>Total Amount: ₹5000</h5>
+                            <button type="submit" class="btn btn-primary">Book and Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Nepal Tour -->
+        <div class="row rounded toubg border border-success mt-4">
+            <div class="col-md-5 d-flex justify-content-center" id="nepal-tour">
+                <img src="images/nepal-tour.jpg" alt="Dubai Tour" class="img-fluid mt-1 mb-1">
+            </div>
+            <div class="col-md-7 py-3">
+                <h1>Nepal Tour Package</h1>
+                <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
+                <div class="tour">
+                    <ul class="list-group">
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 1 :</b> </li>
+                        <li class="list-group-item text-success"> Kathmandu Arrival </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 2 :</b> </li>
+                        <li class="list-group-item text-success"> Kathmandu Sightseeing </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 3 :</b> </li>
+                        <li class="list-group-item text-success"> Kathmandu Pokhara ( 200 Km – 6 Hours )</li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 4 : </b> </li>
+                        <li class="list-group-item text-success">Pokhara Sightseeing. </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 5 : </b> </li>
+                        <li class="list-group-item text-success">Jomsom Kathmandu Via Pokhara ( AIR + Surface ) </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-9 m-auto">
+                        <div class="container my-5">
+                            <div class="text-center mb-4">
+                                <h2 class="title">Services</h2>
+                                <hr class="my-4"> <!-- Horizontal line -->
+                            </div>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
+                                    <p>Transport</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
+                                    <p>Hotels</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
+                                    <p>Sightseeing</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
+                                    <p>Meals</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
+                                    <p>Guide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 justify-content-center m-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#enquireModal">
+                            Book Now
+                        </button>
+                        <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/travel-popup.png" class="img-fluid" alt="Travel Popup">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form id="enquiryForm" onsubmit="return handleSubmit()">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Enter your name" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Enter your email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                                            placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="bookingDate" class="form-label">Booking
+                                                            Date</label>
+                                                        <input type="date" class="form-control" id="bookingDate"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="nop" class="form-label">Number of People
+                                                            Travelling</label>
+                                                        <input type="number" class="form-control" id="nop" name="nop"
+                                                            placeholder="Enter total number of persons Travelling"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <button type="submit" class="btn">Proceed to
+                                                            Payment</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Payment Modal -->
+        <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
+            aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content paybg">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="bookingPaymentForm">
+                            <h5>Payment Information</h5>
+                            <div class="form-group">
+                                <label for="paymentMethod">Select Payment Method</label>
+                                <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
+                                    required>
+                                    <option value="">Choose...</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="upi">UPI</option>
+                                </select>
+                            </div>
+                            <div id="cardPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="cardName">Cardholder Name</label>
+                                    <input type="text" class="form-control" id="cardName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="expiryDate">Expiry Date</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="upiPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="upiId">UPI ID</label>
+                                    <input type="text" class="form-control" id="upiId" required>
+                                </div>
+                            </div>
+                            <h5>Total Amount: ₹5000</h5>
+                            <button type="submit" class="btn btn-primary">Book and Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Malaysia Tour-->
+        <div class="row rounded toubg border border-success mt-4">
+            <div class="col-md-5 d-flex justify-content-center rounded" id="malaysia-tour">
+                <img src="images/malaysia-tour.jpg" alt="Malaysia Tour" class="img-fluid mt-1 mb-1">
+            </div>
+            <div class="col-md-7 py-3">
+                <h1> Malaysia Tour Package</h1>
+                <h5 class="text-black-50"> <span class="mx-3"> 06 Nights / 07 Days </span> </h5>
+                <div class="tour">
+                    <ul class="list-group">
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 1 :</b> </li>
+                        <li class="list-group-item text-success"> Arrival at the Langkawi airport </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 2 :</b> </li>
+                        <li class="list-group-item text-success"> Island Hopping Tour</li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 3 and Day 4:</b> </li>
+                        <li class="list-group-item text-success"> Langkawi – Penang then Penang City Tour </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 5 and Day 6: </b> </li>
+                        <li class="list-group-item text-success"> Penang – Kuala Lumpur then Kuala Lumpur City Tour
+                        </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 7 : </b> </li>
+                        <li class="list-group-item text-success"> Departure : Good Bye Malaysia </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-9 m-auto">
+                        <div class="container my-5">
+                            <div class="text-center mb-4">
+                                <h2 class="title">Services</h2>
+                                <hr class="my-4"> <!-- Horizontal line -->
+                            </div>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
+                                    <p>Transport</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
+                                    <p>Hotels</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
+                                    <p>Sightseeing</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
+                                    <p>Meals</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
+                                    <p>Guide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 justify-content-center m-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#enquireModal">
+                            Book Now
+                        </button>
+                        <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/travel-popup.png" class="img-fluid" alt="Travel Popup">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form id="enquiryForm" onsubmit="return handleSubmit()">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Enter your name" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Enter your email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                                            placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="bookingDate" class="form-label">Booking
+                                                            Date</label>
+                                                        <input type="date" class="form-control" id="bookingDate"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="nop" class="form-label">Number of People
+                                                            Travelling</label>
+                                                        <input type="number" class="form-control" id="nop" name="nop"
+                                                            placeholder="Enter total number of persons Travelling"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <button type="submit" class="btn">Proceed to
+                                                            Payment</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Payment Modal -->
+        <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
+            aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content paybg">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="bookingPaymentForm">
+                            <h5>Payment Information</h5>
+                            <div class="form-group">
+                                <label for="paymentMethod">Select Payment Method</label>
+                                <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
+                                    required>
+                                    <option value="">Choose...</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="upi">UPI</option>
+                                </select>
+                            </div>
+                            <div id="cardPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="cardName">Cardholder Name</label>
+                                    <input type="text" class="form-control" id="cardName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="expiryDate">Expiry Date</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="upiPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="upiId">UPI ID</label>
+                                    <input type="text" class="form-control" id="upiId" required>
+                                </div>
+                            </div>
+                            <h5>Total Amount: ₹5000</h5>
+                            <button type="submit" class="btn btn-primary">Book and Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Singapore Tour-->
+        <div class="row rounded toubg border border-success mt-4">
+            <div class="col-md-5 d-flex justify-content-center" id="singapore-tour">
+                <img src="images/singapore-tour.jpg" alt="Dubai Tour" class="img-fluid mt-1 mb-1">
+            </div>
+            <div class="col-md-7 py-3">
+                <h1>Singapore Tour Package</h1>
+                <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
+                <div class="tour">
+                    <ul class="list-group">
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 1 :</b> </li>
+                        <li class="list-group-item text-success"> Singapore: Arrival and Night Safari </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 2 :</b> </li>
+                        <li class="list-group-item text-success"> Singapore: Half Day City Tour </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 3 :</b> </li>
+                        <li class="list-group-item text-success"> Singapore: Sentosa Island Tour </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 4 : </b> </li>
+                        <li class="list-group-item text-success"> Singapore: Leisure Day </li>
+                        <li class="list-group-item text-danger fw-bold"> <b> Day 5 : </b> </li>
+                        <li class="list-group-item text-success"> Singapore: Bid Bye to the Trip </li>
+                    </ul>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-9 m-auto">
+                        <div class="container my-5">
+                            <div class="text-center mb-4">
+                                <h2 class="title">Services</h2>
+                                <hr class="my-4"> <!-- Horizontal line -->
+                            </div>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
+                                    <p>Transport</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
+                                    <p>Hotels</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
+                                    <p>Sightseeing</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
+                                    <p>Meals</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
+                                    <p>Guide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 justify-content-center m-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#enquireModal">
+                            Book Now
+                        </button>
+                        <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/travel-popup.png" class="img-fluid" alt="Travel Popup">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form id="enquiryForm" onsubmit="return handleSubmit()">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Enter your name" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Enter your email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                                            placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="bookingDate" class="form-label">Booking
+                                                            Date</label>
+                                                        <input type="date" class="form-control" id="bookingDate"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="nop" class="form-label">Number of People
+                                                            Travelling</label>
+                                                        <input type="number" class="form-control" id="nop" name="nop"
+                                                            placeholder="Enter total number of persons Travelling"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <button type="submit" class="btn">Proceed to
+                                                            Payment</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Payment Modal -->
+        <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
+            aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content paybg">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="bookingPaymentForm">
+                            <h5>Payment Information</h5>
+                            <div class="form-group">
+                                <label for="paymentMethod">Select Payment Method</label>
+                                <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
+                                    required>
+                                    <option value="">Choose...</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="upi">UPI</option>
+                                </select>
+                            </div>
+                            <div id="cardPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="cardName">Cardholder Name</label>
+                                    <input type="text" class="form-control" id="cardName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="expiryDate">Expiry Date</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="upiPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="upiId">UPI ID</label>
+                                    <input type="text" class="form-control" id="upiId" required>
+                                </div>
+                            </div>
+                            <h5>Total Amount: ₹5000</h5>
+                            <button type="submit" class="btn btn-primary">Book and Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Sri Lanlka Tour-->
+        <div class="row rounded toubg border border-success mt-4">
+            <div class="col-md-5 d-flex justify-content-center" id="sri-lanka-tour">
+                <img src="images/sri-lanka-tour.jpg" alt="Dubai Tour" class="img-fluid mb-1 mt-1">
+            </div>
+            <div class="col-md-7 py-3">
+                <h1> Srilanka Tour Package</h1>
+                <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
+                <section class="tour">
+                    <ul class="list-group">
+                        <li class="list-group-item text-danger fw-bold">Day 1:</li>
+                        <li class="list-group-item text-success">Airport - Pinnawala - Sigiriya Arrival.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 2:</li>
+                        <li class="list-group-item text-success">Dambulla - Matale - Kandy Sightseeing.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 3:</li>
+                        <li class="list-group-item text-success">Kandy - Nuwara Eliya.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 4:</li>
+                        <li class="list-group-item text-success">Nuwara Eliya - Colombo - Negombo.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 5:</li>
+                        <li class="list-group-item text-success">Negombo - Airport Terminal.</li>
+                    </ul>
+                </section>
+                <div class="row mt-4">
+                    <div class="col-lg-9 m-auto">
+                        <div class="container my-5">
+                            <div class="text-center mb-4">
+                                <h2 class="title">Services</h2>
+                                <hr class="my-4"> <!-- Horizontal line -->
+                            </div>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
+                                    <p>Transport</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
+                                    <p>Hotels</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
+                                    <p>Sightseeing</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
+                                    <p>Meals</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
+                                    <p>Guide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 justify-content-center m-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#enquireModal">
+                            Book Now
+                        </button>
+                        <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/travel-popup.png" class="img-fluid" alt="Travel Popup">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form id="enquiryForm" onsubmit="return handleSubmit()">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Enter your name" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Enter your email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                                            placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="bookingDate" class="form-label">Booking
+                                                            Date</label>
+                                                        <input type="date" class="form-control" id="bookingDate"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="nop" class="form-label">Number of People
+                                                            Travelling</label>
+                                                        <input type="number" class="form-control" id="nop" name="nop"
+                                                            placeholder="Enter total number of persons Travelling"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <button type="submit" class="btn">Proceed to
+                                                            Payment</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Payment Modal -->
+        <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
+            aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content paybg">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="bookingPaymentForm">
+                            <h5>Payment Information</h5>
+                            <div class="form-group">
+                                <label for="paymentMethod">Select Payment Method</label>
+                                <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
+                                    required>
+                                    <option value="">Choose...</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="upi">UPI</option>
+                                </select>
+                            </div>
+                            <div id="cardPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="cardName">Cardholder Name</label>
+                                    <input type="text" class="form-control" id="cardName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="expiryDate">Expiry Date</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="upiPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="upiId">UPI ID</label>
+                                    <input type="text" class="form-control" id="upiId" required>
+                                </div>
+                            </div>
+                            <h5>Total Amount: ₹5000</h5>
+                            <button type="submit" class="btn btn-primary">Book and Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Thailand Tour-->
+        <div class="row rounded toubg bg-white border border-success mt-4">
+            <div class="col-md-5 d-flex justify-content-center" id="thailand-tour">
+                <img src="images/thailand-tour.jpg" alt="Thailand Tour" class="img-fluid mt-1 mb-1">
+            </div>
+            <div class="col-md-7 py-3">
+                <h1>Thailand Tour Package</h1>
+                <h5 class="text-black-50"> <span class="mx-3"> 04 Nights / 05 Days </span> </h5>
+                <section class="tour">
+                    <ul class="list-group">
+                        <li class="list-group-item text-danger fw-bold">Day 1:</li>
+                        <li class="list-group-item text-success">Arrival at Phuket & Transfer to Krabi.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 2:</li>
+                        <li class="list-group-item text-success">Krabi – Explore 4 Islands by Speedboat.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 3:</li>
+                        <li class="list-group-item text-success">Krabi City Tour & Transfer to Phuket.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 4:</li>
+                        <li class="list-group-item text-success">Phuket – Phi Phi Island.</li>
+
+                        <li class="list-group-item text-danger fw-bold">Day 5:</li>
+                        <li class="list-group-item text-success">Departure: Bye Bye Thailand.</li>
+                    </ul>
+                </section>
+                <div class="row mt-4">
+                    <div class="col-lg-9 m-auto">
+                        <div class="container my-5">
+                            <div class="text-center mb-4">
+                                <h2 class="title">Services</h2>
+                                <hr class="my-4"> <!-- Horizontal line -->
+                            </div>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-transport.png" alt="Transport" class="img-fluid">
+                                    <p>Transport</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-hotel.png" alt="Hotels" class="img-fluid">
+                                    <p>Hotels</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-sightseeing.png" alt="Sightseeing" class="img-fluid">
+                                    <p>Sightseeing</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-meals.png" alt="Meals" class="img-fluid">
+                                    <p>Meals</p>
+                                </div>
+                                <div class="service mx-3 text-center">
+                                    <img src="icons/ico-guide.png" alt="Guide" class="img-fluid">
+                                    <p>Guide</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 justify-content-center m-auto">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#enquireModal">
+                            Book Now
+                        </button>
+                        <div class="modal fade" id="enquireModal" tabindex="-1" aria-labelledby="enquireModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content modalbg">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="enquireModalLabel">Enquiry Form</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <img src="images/travel-popup.png" class="img-fluid" alt="Travel Popup">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <form id="enquiryForm" onsubmit="return handleSubmit()">
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Name</label>
+                                                        <input type="text" class="form-control" id="name" name="name"
+                                                            placeholder="Enter your name" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                            placeholder="Enter your email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Phone Number</label>
+                                                        <input type="tel" class="form-control" id="phone" name="phone"
+                                                            placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="bookingDate" class="form-label">Booking
+                                                            Date</label>
+                                                        <input type="date" class="form-control" id="bookingDate"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="nop" class="form-label">Number of People
+                                                            Travelling</label>
+                                                        <input type="number" class="form-control" id="nop" name="nop"
+                                                            placeholder="Enter total number of persons Travelling"
+                                                            required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <button type="submit" class="btn">Proceed to
+                                                            Payment</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Booking Payment Modal -->
+        <div class="modal fade" id="bookingPaymentModal" tabindex="-1" role="dialog"
+            aria-labelledby="bookingPaymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content paybg">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="bookingPaymentModalLabel">Payment Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="bookingPaymentForm">
+                            <h5>Payment Information</h5>
+                            <div class="form-group">
+                                <label for="paymentMethod">Select Payment Method</label>
+                                <select class="form-control" id="paymentMethod" onchange="togglePaymentFields()"
+                                    required>
+                                    <option value="">Choose...</option>
+                                    <option value="card">Credit/Debit Card</option>
+                                    <option value="upi">UPI</option>
+                                </select>
+                            </div>
+                            <div id="cardPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="cardName">Cardholder Name</label>
+                                    <input type="text" class="form-control" id="cardName">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cardNumber">Card Number</label>
+                                    <input type="text" class="form-control" id="cardNumber">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="expiryDate">Expiry Date</label>
+                                        <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="upiPayment" style="display:none;">
+                                <div class="form-group">
+                                    <label for="upiId">UPI ID</label>
+                                    <input type="text" class="form-control" id="upiId" required>
+                                </div>
+                            </div>
+                            <h5>Total Amount: ₹5000</h5>
+                            <button type="submit" class="btn btn-primary">Book and Pay Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 
