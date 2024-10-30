@@ -216,7 +216,7 @@ body {
 .toubg h1,
 .toubg h5,
 .toubg p {
-    color: #F08080; /* Light Coral for all text */
+    color: #d1e007; /* Light Coral for all text */
 }
 
 
@@ -263,4 +263,10 @@ body {
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start {
   transform: translateX(0);
+}
+
+#footerwebs p,
+#footerwebs h5,
+#footerwebs a {
+  font-size: 1.2rem; /* Adjust as needed */
 }
